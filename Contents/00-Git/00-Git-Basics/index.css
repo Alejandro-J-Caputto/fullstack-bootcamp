@@ -1,0 +1,17 @@
+h1 {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-name: rainbow;
+    color: blue;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+
+    from {
+        background-color:blue;
+    }
+    to {
+        background-color: yellow;
+    }
+}
