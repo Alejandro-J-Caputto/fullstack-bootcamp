@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/miestilo.css">
+    <title>Airbnb</title>
+
+
+  </head>
+  <body>
+      <div id=foto>
+        <div class="banner text-center text-white pt-5" >
+        <div class="banner-shadow"></div>
+        <div class="banner-content fade-and-slide">
+          <h1 class="display-4">Cumple tu sueño</h1>
+          <p class="display-3">Da comienzo a tu aventura</p>
+          <a href="#" class="btn btn-primary btn-lg">HOW IT WORKS</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid enlaces py-5 my-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/globe.png" alt="">
+                    <h3 class="lead"><b>EXPLORA EL MUNDO</b></h3>
+                    <span class="display-5"> Cualquier lugar a tu alcance</span>
+
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/dollar.png" alt="">
+                    <h3 class="lead"><b>A TU GUSTO </b> </h3>
+                    <SPAN class="display-5">Mejor precio garantizado</SPAN>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/beer.png" alt="">
+                <h3 class="lead"><b>ACTIVIDADES</b> </h3>
+                    <SPAN class="display-5">Tours disponibles</SPAN>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <img src="images/heart.png" alt="">
+                <h3 class="lead"><b>PUNTOS DE ENCUENTRO </b> </h3>
+                    <SPAN class="display-5">Conoce a gente nueva</SPAN>
+            </div>
+        </div>
+            
+        </div>
+</div>
+
+<div class="container-fluid bg-light py-5 pr-0  mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card bg-dark text-white " style="background: url('images/StockSnap_V3RV70YNWK.jpg');">
+                   <div class="container-fluid text-white row">
+                       <div class="container p-0 d-flex align-items-center  col-md-6">
+                        <h3 class="card-title ">Paris</h3>
+
+                       </div>
+                       <div class="  d-flex align-items-right  ">
+                            <img src="images/seb.jpg" class="border-radius rounded-circle" width="75"  alt="">
+                        </div>
+                   </div>
+                   <br>
+                   <br>
+                   <h3 class="pl-3 text-black">Visitanos</h3>
+                   <p class="lead mb-2 pl-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dolor!</p>
+                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card bg-dark text-white " style="background: url('images/StockSnap_V3RV70YNWK.jpg');">
+                   <div class="container-fluid text-white row">
+                       <div class="container p-0 d-flex align-items-center  col-md-6">
+                        <h3 class="card-title ">Paris</h3>
+
+                       </div>
+                       <div class="  d-flex align-items-right  ">
+                            <img src="images/seb.jpg" class="border-radius rounded-circle" width="75"  alt="">
+                        </div>
+                   </div>
+                   <br>
+                   <br>
+                   <h3 class="pl-3 text-black">Visitanos</h3>
+                   <p class="lead mb-2 pl-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dolor!</p>
+                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card bg-dark text-white " style="background: url('images/StockSnap_V3RV70YNWK.jpg');">
+                   <div class="container-fluid text-white row">
+                       <div class="container p-0 d-flex align-items-center  col-md-6">
+                        <h3 class="card-title ">Paris</h3>
+
+                       </div>
+                       <div class="  d-flex align-items-right  ">
+                            <img src="images/seb.jpg" class="border-radius rounded-circle" width="75"  alt="">
+                        </div>
+                   </div>
+                   <br>
+                   <br>
+                   <h3 class="pl-3 text-black">Visitanos</h3>
+                   <p class="lead mb-2 pl-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dolor!</p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+var myLatlng = new google.maps.LatLng(48.812937,2.364178);
+
+var myOptions = {
+  zoom: 16,
+  center: myLatlng,
+  scrollwheel: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP,
+  styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+};
+
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  title:"You are here!"
+});
+</script>
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

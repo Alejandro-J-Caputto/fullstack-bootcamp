@@ -1,0 +1,9 @@
+#foto1 {
+
+     background-image: url(https://s3.amazonaws.com/StartupStockPhotos/uploads/20160503/5.jpg);
+    color: white;
+    padding: 150px 0;
+    background-size: cover;
+    height: 600px;
+
+}
